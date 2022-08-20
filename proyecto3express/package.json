@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "npm exec sequelize-cli db:migrate & npm exec sequelize-cli db:seed:all", 
+    "build": "npm exec sequelize-cli db:migrate & npm exec sequelize-cli db:seed:all",
     "start": "node ./bin/www"
   },
   "dependencies": {
